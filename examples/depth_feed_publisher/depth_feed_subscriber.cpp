@@ -1,6 +1,6 @@
 
 #include "order.h"
-#include <boost/scoped_ptr.hpp>
+#include <memory>   // #include <boost/scoped_ptr.hpp>
 #include "depth_feed_subscriber.h"
 #include <Codecs/DataSourceBuffer.h>
 #include <Codecs/GenericMessageBuilder.h>
